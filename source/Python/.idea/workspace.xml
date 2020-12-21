@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f0d9355f-0c4c-43e3-84ff-3c6fbafca8ab" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Project6" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Sldis20ppSGlh9NB9JY1nRfiTI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project3" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Frost\OneDrive\Documents\Classes\CSE 450\Projects\Project5\Project5" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Project7.project">
+    <configuration name="Project7.project" type="PythonConfigurationType" factoryName="Python">
+      <module name="Project7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="Project7.project" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Project7.testcase" type="PythonConfigurationType" factoryName="Python">
+      <module name="Project7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="mimir_testcase" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Project7.project" />
+      <item itemvalue="Python.Project7.testcase" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0d9355f-0c4c-43e3-84ff-3c6fbafca8ab" name="Default Changelist" comment="" />
+      <created>1572142246101</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572142246101</updated>
+      <workItem from="1572142251093" duration="14916000" />
+      <workItem from="1572216306273" duration="15833000" />
+      <workItem from="1573162513537" duration="188000" />
+      <workItem from="1573162968480" duration="13925000" />
+      <workItem from="1573336775538" duration="101000" />
+      <workItem from="1573336885660" duration="11724000" />
+      <workItem from="1573426844040" duration="3524000" />
+      <workItem from="1573436176062" duration="30000" />
+      <workItem from="1573439003055" duration="605000" />
+      <workItem from="1574294538331" duration="8513000" />
+      <workItem from="1574631203409" duration="4566000" />
+      <workItem from="1574737017644" duration="6911000" />
+      <workItem from="1575243468374" duration="8185000" />
+      <workItem from="1577142261138" duration="66000" />
+      <workItem from="1578375851611" duration="202000" />
+      <workItem from="1578376207393" duration="532000" />
+      <workItem from="1578378545396" duration="213000" />
+      <workItem from="1578382014823" duration="611000" />
+      <workItem from="1578519622546" duration="688000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="479" y="212" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578378564951">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="479" y="212" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1578378564951" />
+    <state x="805" y="312" key="FileChooserDialogImpl" timestamp="1578376737849">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="805" y="312" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1578376737849" />
+    <state width="2005" height="297" key="GridCell.Tab.0.bottom" timestamp="1578376739272">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="297" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1578376739272" />
+    <state width="2005" height="297" key="GridCell.Tab.0.center" timestamp="1578376739272">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="297" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1578376739272" />
+    <state width="2005" height="297" key="GridCell.Tab.0.left" timestamp="1578376739272">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="297" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1578376739272" />
+    <state width="2005" height="297" key="GridCell.Tab.0.right" timestamp="1578376739272">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="297" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1578376739272" />
+    <state x="533" y="200" key="SettingsEditor" timestamp="1578376334644">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="533" y="200" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1578376334644" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Project6$Project6_testcase.coverage" NAME="Project6.testcase Coverage Results" MODIFIED="1573431021028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project6$Project6_project.coverage" NAME="Project6.project Coverage Results" MODIFIED="1573429314635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project5$Project5_project.coverage" NAME="Project5.project Coverage Results" MODIFIED="1572241814428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project7$Project7_testcase.coverage" NAME="Project7.testcase Coverage Results" MODIFIED="1575252022222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project7$Project7_project.coverage" NAME="Project7.project Coverage Results" MODIFIED="1578376307242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
