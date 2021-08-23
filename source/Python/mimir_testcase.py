@@ -1,4 +1,6 @@
 import unittest
+
+
 class TestCase(unittest.TestCase):
     def test_1(self):
         # region Test Case Contents
@@ -39,18 +41,18 @@ class TestCase(unittest.TestCase):
         HAI 1.450
         VISIBLE WHATEVR
         HOW IZ I fib YR arg ITZ A NUMBR  MKAY
-        	O RLY? FURSTBIGGR 2 AN arg
-        	YA RLY
-        		FOUND YR 1	
-        	NO WAI
-        		I HAS A sub_a ITZ A NUMBR AN ITZ DIFF OF arg AN 2
-        		I HAS A sub_b ITZ A NUMBR AN ITZ DIFF OF arg AN 1
+            O RLY? FURSTBIGGR 2 AN arg
+            YA RLY
+                FOUND YR 1	
+            NO WAI
+                I HAS A sub_a ITZ A NUMBR AN ITZ DIFF OF arg AN 2
+                I HAS A sub_b ITZ A NUMBR AN ITZ DIFF OF arg AN 1
 
-        		I HAS A fib_a ITZ A NUMBR AN ITZ I IZ fib YR sub_a MKAY
-        		I HAS A fib_b ITZ A NUMBR AN ITZ I IZ fib YR sub_b MKAY
+                I HAS A fib_a ITZ A NUMBR AN ITZ I IZ fib YR sub_a MKAY
+                I HAS A fib_b ITZ A NUMBR AN ITZ I IZ fib YR sub_b MKAY
 
-        		FOUND YR SUM OF fib_a AN fib_b
-        	OIC
+                FOUND YR SUM OF fib_a AN fib_b
+            OIC
         IF U SAY SO ITZ A NUMBR 
         VISIBLE I IZ fib YR 1 MKAY
         VISIBLE WHATEVR
@@ -61,18 +63,18 @@ class TestCase(unittest.TestCase):
         HAI 1.450
         VISIBLE WHATEVR
         HOW IZ I fib YR arg ITZ A NUMBR  MKAY
-        	O RLY? FURSTBIGGR 2 AN arg
-        	YA RLY
-        		FOUND YR 1	
-        	NO WAI
-        		I HAS A sub_a ITZ A NUMBR AN ITZ DIFF OF arg AN 2
-        		I HAS A sub_b ITZ A NUMBR AN ITZ DIFF OF arg AN 1
+            O RLY? FURSTBIGGR 2 AN arg
+            YA RLY
+                FOUND YR 1	
+            NO WAI
+                I HAS A sub_a ITZ A NUMBR AN ITZ DIFF OF arg AN 2
+                I HAS A sub_b ITZ A NUMBR AN ITZ DIFF OF arg AN 1
 
-        		I HAS A fib_a ITZ A NUMBR AN ITZ I IZ fib YR sub_a MKAY
-        		I HAS A fib_b ITZ A NUMBR AN ITZ I IZ fib YR sub_b MKAY
+                I HAS A fib_a ITZ A NUMBR AN ITZ I IZ fib YR sub_a MKAY
+                I HAS A fib_b ITZ A NUMBR AN ITZ I IZ fib YR sub_b MKAY
 
-        		FOUND YR SUM OF fib_a AN fib_b
-        	OIC
+                FOUND YR SUM OF fib_a AN fib_b
+            OIC
         IF U SAY SO ITZ A NUMBR 
         VISIBLE I IZ fib YR 4 MKAY
         VISIBLE WHATEVR
@@ -83,18 +85,18 @@ class TestCase(unittest.TestCase):
         HAI 1.450
         VISIBLE WHATEVR
         HOW IZ I fib YR arg ITZ A NUMBR  MKAY
-        	O RLY? FURSTBIGGR 2 AN arg
-        	YA RLY
-        		FOUND YR 1	
-        	NO WAI
-        		I HAS A sub_a ITZ A NUMBR AN ITZ DIFF OF arg AN 2
-        		I HAS A sub_b ITZ A NUMBR AN ITZ DIFF OF arg AN 1
+            O RLY? FURSTBIGGR 2 AN arg
+            YA RLY
+                FOUND YR 1	
+            NO WAI
+                I HAS A sub_a ITZ A NUMBR AN ITZ DIFF OF arg AN 2
+                I HAS A sub_b ITZ A NUMBR AN ITZ DIFF OF arg AN 1
 
-        		I HAS A fib_a ITZ A NUMBR AN ITZ I IZ fib YR sub_a MKAY
-        		I HAS A fib_b ITZ A NUMBR AN ITZ I IZ fib YR sub_b MKAY
+                I HAS A fib_a ITZ A NUMBR AN ITZ I IZ fib YR sub_a MKAY
+                I HAS A fib_b ITZ A NUMBR AN ITZ I IZ fib YR sub_b MKAY
 
-        		FOUND YR SUM OF fib_a AN fib_b
-        	OIC
+                FOUND YR SUM OF fib_a AN fib_b
+            OIC
         IF U SAY SO ITZ A NUMBR 
         VISIBLE I IZ fib YR 6 MKAY
         VISIBLE WHATEVR
@@ -105,12 +107,12 @@ class TestCase(unittest.TestCase):
         HAI 1.450
         VISIBLE WHATEVR
         HOW IZ I fib YR arg ITZ A NUMBR  MKAY
-        	O RLY? FURSTBIGGR 2 AN arg
-        	YA RLY
-        		FOUND YR 1	
-        	NO WAI
-        		FOUND YR SUM OF I IZ fib YR DIFF OF arg AN 2 MKAY AN I IZ fib YR DIFF OF arg AN 1 MKAY
-        	OIC
+            O RLY? FURSTBIGGR 2 AN arg
+            YA RLY
+                FOUND YR 1	
+            NO WAI
+                FOUND YR SUM OF I IZ fib YR DIFF OF arg AN 2 MKAY AN I IZ fib YR DIFF OF arg AN 1 MKAY
+            OIC
         IF U SAY SO ITZ A NUMBR 
         VISIBLE I IZ fib YR 8 MKAY
         VISIBLE WHATEVR
@@ -119,5 +121,7 @@ class TestCase(unittest.TestCase):
         check_output(lolcode_str, '49\n34\n97\n')
 
         # endregion Test Case Contents
+
+
 if __name__ == '__main__':
     unittest.main()
