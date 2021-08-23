@@ -765,7 +765,7 @@ class FunctionDefinition:
         # Get all required locations for parameters
         param_locs = [param.compile(compiled_output, symbol_table) for param in self.children[1]]
 
-        # Initialize Parameter Locations to Zero
+        # Initialize Parameter Locations
         for param in param_locs:
             if param.is_array():
                 compiled_output.append(f"AR_SET_SIZE {param} 1")
@@ -783,16 +783,12 @@ class FunctionDefinition:
         compiled_output.append(f"VAL_COPY 0 {func_def.rtn_label}")
 
         # Function Details (Non-essential)
-        compiled_output.append(f"# Function: {func_def.rtn_loc.var_type} {self.children[0]} ({'None' if not param_locs else repr(param_locs)[1:-1]})")
-        compiled_output.append(f"# Return: Location {func_def.rtn_loc}, Label {func_def.rtn_label}")
+        compiled_output.append(f"# Function {self.children[0]} ({'None' if not param_locs else repr(param_locs)[1:-1]})")
+        compiled_output.append(f"# return {func_def.rtn_loc}, return label {func_def.rtn_label}")
 
         # Header Guard
         compiled_output.append(f"JUMP {func_def.end_label}")
         compiled_output.append(f"{func_def.start_label}:")
-
-        # TODO: Debug Statement (Remove)
-        compiled_output.append(f"OUT_NUM {param_locs[0]}")
-        compiled_output.append(f"OUT_CHAR '\n'")
 
         # Function Contents
         self.children[2].compile(compiled_output, symbol_table)
@@ -819,13 +815,11 @@ class FunctionCall:
         if len(params) != len(args):
             raise Exception  # TODO: Add Error
 
-        # Push All Parameters to the Call Stack
         compiled_output.append(f"PUSH {func_def.rtn_loc}")
         compiled_output.append(f"PUSH {func_def.rtn_label}")
         for param in params:
             compiled_output.append(f"PUSH {param}")
 
-        # region Function Call
         compiled_output.append(f"### FUNCTION CALL ###")
 
         # Copy Parameters to Arguments
@@ -839,19 +833,12 @@ class FunctionCall:
             else:
                 compiled_output.append(f"VAL_COPY {arg} {param}")
 
-        # Get new return label to go back to after the execution completes
         rtn_label = symbol_table.get_new_label(label_type="RETURN")
 
-        # Put the return label into the functions parameters
         compiled_output.append(f"VAL_COPY {rtn_label} {func_def.rtn_label}")
-
-        # Jump to the function definition
         compiled_output.append(f"JUMP {func_def.start_label}")
-
-        # Place return label down to return to
         compiled_output.append(f"{rtn_label}:")
 
-        # Put the Return Value into the Safe Location
         rtn_type = func_def.rtn_loc.var_type
         is_array = func_def.rtn_loc.is_array()
         rtn_value = symbol_table.get_entry(var_type=rtn_type, array=is_array)
@@ -861,9 +848,7 @@ class FunctionCall:
             compiled_output.append(f"VAL_COPY {func_def.rtn_loc} {rtn_value}")
 
         compiled_output.append(f"### END FUNCTION CALL ###")
-        # endregion
 
-        # Pop Parameters from the Call Stack in Reverse Order
         if params:
             params.reverse()
         for param in params:
@@ -871,7 +856,6 @@ class FunctionCall:
         compiled_output.append(f"POP {func_def.rtn_label}")
         compiled_output.append(f"POP {func_def.rtn_loc}")
 
-        # Reset to Proper Order
         if params:
             params.reverse()
 

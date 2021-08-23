@@ -3,8 +3,8 @@ class TestCase(unittest.TestCase):
     def test_1(self):
         # region Test Case Contents
 
-        from Project7.project import generate_LMAOcode_from_LOLcode, generate_ROFLcode_from_LOLcode
-        from Project7.interpreter import interpret
+        from Compiler.project import generate_LMAOcode_from_LOLcode, generate_ROFLcode_from_LOLcode
+        from Compiler.interpreter import interpret
         SEED = 0
         STANDARD_INPUT = "abcdef"
 

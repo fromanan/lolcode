@@ -1,5 +1,5 @@
 Name: Tony Froman
-Hours to complete project: 20
+Hours to complete project: 5
 Feedback:
 
 
@@ -16,26 +16,27 @@ AST = MainProgram([
     CodeBlock([
         PrintNode([RandomValue]),
         CodeBlock([
-            FuncDef(['fib', [DeclNode(arg, NUMBR)],
+            ConditionalNode([
+                TroofLiteral(1),
                 CodeBlock([
-                    ConditionalNode([
-                        BinaryOpNode(['FURSTBIGGR', NumbrLiteral(2), UseVar(arg)]),
-                        CodeBlock([
-                            ReturnNode([NumbrLiteral(1)])
-                        ]),
-                        CodeBlock([
-                            ReturnNode([
-                                BinaryOpNode(['SUM',
-                                    FuncCall(['fib', [BinaryOpNode(['DIFF', UseVar(arg), NumbrLiteral(2)])]]),
-                                    FuncCall(['fib', [BinaryOpNode(['DIFF', UseVar(arg), NumbrLiteral(1)])]])
+                    CodeBlock([
+                        FuncDef(['numbr_function', [DeclNode(arg, NUMBR), DeclNode(arg2, LETTR)],
+                            CodeBlock([PrintNode([UseVar(arg2)]),
+                                ReturnNode([
+                                    BinaryOpNode(['SUM', NumbrLiteral(8), UseVar(arg)])
                                 ])
-                            ])
+                            ]), 'NUMBR'
                         ])
-                    ])
-                ]), 'NUMBR'
+                    ]),
+                    InitNode([
+                        DeclNode(x, NUMBR),
+                        AssignNode(None, FuncCall(['numbr_function', [NumbrLiteral(4), InputNode]]))
+                    ]),
+                    PrintNode([UseVar(x)])
+                ]),
+                []
             ])
         ]),
-        PrintNode([FuncCall(['fib', [NumbrLiteral(8)]])]),
         PrintNode([RandomValue])
     ])
 ])
