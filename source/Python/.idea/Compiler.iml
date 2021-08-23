@@ -6,7 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Project6" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/Project6/rply" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.7 (Project4)" jdkType="Python SDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">

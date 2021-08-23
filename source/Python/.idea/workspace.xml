@@ -69,7 +69,7 @@
       <recent name="C:\Users\Frost\OneDrive\Documents\Classes\CSE 450\Projects\Project5\Project5" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Project7.testcase">
+  <component name="RunManager" selected="Python.Compiler.testcase">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="Compiler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,7 +103,7 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Project7.project" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="Compiler.project" type="PythonConfigurationType" factoryName="Python">
       <module name="Compiler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,7 +116,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="Project7.project" />
+      <option name="SCRIPT_NAME" value="Compiler.project" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Project7.testcase" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="Compiler.testcase" type="PythonConfigurationType" factoryName="Python">
       <module name="Compiler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -265,8 +265,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Project7.project" />
-      <item itemvalue="Python.Project7.testcase" />
+      <item itemvalue="Python.Compiler.project" />
+      <item itemvalue="Python.Compiler.testcase" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -311,7 +311,7 @@
       <workItem from="1578378545396" duration="213000" />
       <workItem from="1578382014823" duration="611000" />
       <workItem from="1578519622546" duration="688000" />
-      <workItem from="1629734460758" duration="396000" />
+      <workItem from="1629734460758" duration="847000" />
     </task>
     <servers />
   </component>
