@@ -9,7 +9,7 @@ External Sources (Attributions):
 3. Floating Point RegEx: https://stackoverflow.com/questions/12643009/regular-expression-for-floating-point-numbers
 4. Ignoring Warnings: https://stackoverflow.com/questions/879173/how-to-ignore-deprecation-warnings-in-python
 5. Negative Lookahead RegEx: https://stackoverflow.com/questions/2706745/how-to-match-the-character-not-followed-by-a-or-em-or-strong
-6. Professor Nahum's Code (it is basically Frankenstein at the moment)
+6. Dr. Josh Nahum
 
 
 AST = MainProgram([
